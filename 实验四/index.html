@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>海丝之路（实验四）</title>
+		<style >
+		
+		    	*{
+					margin : 0;
+					padding: 0;
+                 }
+				 
+				 .body{
+					 background-color: #e2e2e2;
+				 }
+				 .back{
+					 background:url("img/意大利.png");
+					 margin-left: 5vw;
+					 width: 90vw;
+					 height:100vh;
+					 background-size: 100% 100%;
+				 }
+				.boat{
+					 position: absolute;
+					 top:50px;
+					 left:228px;
+					 transform: scale(0.35);
+				     animation:boat 2s ease infinite;
+				}
+				 .mian{
+					position: absolute;
+					top:94px;
+					left:325px;
+					transform: scale(0.4);
+				 }
+				 .mian:hover{
+					 cursor: pointer;
+					 transform: scale(0.45);
+				 }
+				 .shoes{
+					 position: absolute;
+					 top:190px;
+					 left:420px;
+					 transform: scale(0.35);
+				 }
+				 .shoes:hover{
+					 cursor: pointer;
+				 	transform: scale(0.4);
+					}
+				 .cheese{
+					 position: absolute;
+					 top:210px;
+					 left:100px;
+					 transform: scale(0.4);
+				 }
+				 .cheese:hover{
+					 cursor: pointer;
+					 transform: scale(0.45);
+				 }
+				 /* .boat{
+				 	 position: absolute;
+				 	 top:50px;
+				 	 left:228px;
+				 	 transform: scale(0.35);
+					 animation:boat 2s ease infinite;
+				 } */
+				 .datang{
+				 	 position: absolute;
+				 	 top:-15px;
+				 	 left:207px;
+				 	 transform: scale(0.35);
+				 }
+				  .datang:hover{
+				 	 cursor: pointer;
+				 	 transform: scale(0.38);
+				 }
+				 .tower{
+					 position: absolute;
+					 left:185px;
+					 top:-89px;
+					 transform: scale(0.37);
+				 }
+				 .tower:hover{
+					 cursor: pointer;
+					transform:scale(0.4);
+				 } 
+				 .jiaotang{
+					 position: absolute;
+					 top:70px;
+					 left:120px;
+					 transform: scale(0.4);
+				 }
+				 .jiaotang:hover{
+				     cursor: pointer;
+				 	 transform: scale(0.45); 
+				 }
+				 .Rome{
+					 position: absolute;
+					 top:110px;
+					 left:390px;
+					 transform: scale(0.35);
+				 }
+				 .Rome:hover{
+				     cursor: pointer;
+				 	 transform: scale(0.4); 
+				 }
+				 
+				 .grass{
+					 position: absolute;
+					 right: -40px;
+					 top:50px;
+					 transform: scale(0.36);
+				 }
+				 .xie1{
+					 position: absolute;
+					 right:-4px;
+					 top:-20x;
+					 transform: scale(0.35);
+					 display: none;
+				 }
+                 .mian1{
+					 position: absolute;
+					 right:0px;
+					 top:40px;
+					 transform: scale(0.4);
+					 display: none;
+				 }				 
+				 .cheese1{
+				 	 position: absolute;
+				 	 right:10px;
+				 	 top:125px;
+				 	 transform: scale(0.42);
+					display: none;
+				 }
+				 .esc{
+					 position: absolute;
+					 left:41px;
+					 top:0px;
+					 transform:scale(0.4);
+				 }
+				 .Rome1{
+				 	 position: absolute;
+					 top:-180px;
+					 right:0px;
+					 transform:scale(0.35);
+					 display: none;
+				 }
+				 .pisa{
+					 position: absolute;
+					 top:-180px;
+					 right:-80px;
+					 transform:scale(0.35);
+					 display: none; 
+				}
+				.towerintroduce{
+					position: absolute;
+					top:-190px;
+					right:-150px;
+					transform:scale(0.35);
+					display: none;
+				}
+				.church{
+					position: absolute;
+					top:-180px;
+					left:-260px;
+					transform:scale(0.35);
+					display: none;
+				}
+				.shoesintroduce{
+					position: absolute;
+					bottom:-180px;
+					right:0px;
+					transform:scale(0.35);
+					display: none;
+				}
+				.cheeseintroduce{
+					position: absolute;
+					top:-100px;
+					left:-60px;
+					transform:scale(0.35);
+					display: none;
+				}
+				.mianintroduce{
+					position: absolute;
+					top:-200px;
+					left:-240px;
+					transform:scale(0.35);
+					display: none;
+				}
+		    </style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function showImage()
+			{	
+				document.getElementsByClassName("xie1")[0].style.display = "block";
+			}
+			function showImage1()
+			{	
+				document.getElementsByClassName("mian1")[0].style.display = "block";
+			}
+			function showImage2()
+			{	
+				document.getElementsByClassName("cheese1")[0].style.display = "block";
+			}
+			function romeintroduce()
+			{
+				document.getElementsByClassName("Rome1")[0].style.display = "block";
+			}
+			function romeend()
+			{
+				document.getElementsByClassName("Rome1")[0].style.display = "none";
+			}
+			function pisaintroduce()
+			{
+				document.getElementsByClassName("pisa")[0].style.display = "block";
+			}
+			function pisaend()
+			{
+				document.getElementsByClassName("pisa")[0].style.display = "none";
+			}
+			function towerintroduced()
+			{
+				document.getElementsByClassName("towerintroduce")[0].style.display = "block";
+			}
+			function towerend()
+			{
+				document.getElementsByClassName("towerintroduce")[0].style.display = "none";
+			}
+			function churchintroduced()
+			{
+				document.getElementsByClassName("church")[0].style.display = "block";
+			}
+			function churchend()
+			{
+				document.getElementsByClassName("church")[0].style.display = "none";
+			}
+			function shoesintroduced()
+			{
+				document.getElementsByClassName("shoesintroduce")[0].style.display = "block";
+			}
+			function shoesend()
+			{
+				document.getElementsByClassName("shoesintroduce")[0].style.display = "none";
+			}
+			function cheeseintroduced()
+			{
+				document.getElementsByClassName("cheeseintroduce")[0].style.display = "block";
+			}
+			function cheeseend()
+			{
+				document.getElementsByClassName("cheeseintroduce")[0].style.display = "none";
+			}
+			function mianintroduced()
+			{
+				document.getElementsByClassName("mianintroduce")[0].style.display = "block";
+			}
+			function mianend()
+			{
+				document.getElementsByClassName("mianintroduce")[0].style.display = "none";
+			}
+		</script>
+		<body class="body">
+			<div class="back">
+				<div class="image">
+					<div class="xie1"><img src="img/高跟鞋.png" "/></div>
+					<div class="shoes"><img src="img/高跟鞋.png"  onmouseover="shoesintroduced()"onmouseout="shoesend()" onclick="showImage()"/></div>
+					<div class="cheese1"><img src="img/奶酪.png" /></div>
+					<div class="cheese"><img src="img/奶酪.png" onclick="showImage2()" onmouseover="cheeseintroduced()"onmouseout="cheeseend()"/></div>
+					<div class="mian1"><img src="img/面.png" /></div>
+					<div class="mian"><img src="img/面.png" onclick="showImage1()"onmouseover="mianintroduced()"onmouseout="mianend()"/></div>
+					<div class="boat"><img src="img/船只.png"/></div>
+					<div class="datang"><img src="img/大堂.png"onmouseover="churchintroduced()"onmouseout="churchend()" /></div>
+					<div class="tower"><img src="img/比萨斜塔.png" onmouseover="towerintroduced()"onmouseout="towerend()"/></div>
+					<div class="jiaotang"><img src="img/教堂.png" onmouseover="pisaintroduce()"onmouseout="pisaend()"/></div>
+					<div class="Rome"><img src="img/罗马.png" onmouseover="romeintroduce()"onmouseout="romeend()"/></div>
+					<div class="grass"><img src="img/草.png" /></div>
+					<div class="esc"><img src="img/UI.png" onclick="return1()"/></div>
+					<div class="Rome1"><img src="img/罗马介绍.png"/></div>
+					<div class="pisa"><img src="img/比萨大教堂.png"/></div>
+					 <div class="towerintroduce"><img src="img/比萨斜塔介绍.png"/></div>
+					 <div class="church"><img src="img/佛罗伦萨.png"/></div>
+					 <div class="shoesintroduce"><img src="img/高跟鞋介绍.png"/></div>
+					 <div class="cheeseintroduce"><img src="img/奶酪介绍.png"/></div>
+					 <div class="mianintroduce"><img src="img/意大利面介绍.png"/></div>
+			</div>
+
+	</body>
+</html>
